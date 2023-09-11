@@ -1,0 +1,142 @@
+/* Add sidebar styles */
+.right a{
+    color: white;
+}
+li {
+    list-style:none;
+}
+.sidebar {
+height: 100%;
+width: 250px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #111;
+padding-top: 20px;
+}
+
+.sidebar h2{
+text-align:center;
+color: white;
+}
+.sidebar a {
+padding: 10px;
+text-decoration: none;
+color: white;
+display: block;
+}
+
+/* Add top navigation styles */
+.topnav {
+background-color: #333;
+overflow: hidden;
+color: white;
+}
+
+.topnav h2 {
+margin: 0;
+padding: 10px;
+}
+
+.left {
+float: left;
+}
+
+.right {
+float: right;
+padding: 10px;
+}
+
+.right a {
+text-decoration: none;
+color: white;
+}
+
+/* Add content area styles */
+.content {
+margin-left: 250px;
+padding: 20px;
+}
+/* form css */
+
+.login-box {
+    width: 300px;
+    margin: 200px auto;
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* review tablse start */
+    /* Add table styles */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    
+    /* Add styles for table actions */
+    td a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    td a:hover {
+        color: #555;
+    }
+
+    /* Add styles for error messages */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
